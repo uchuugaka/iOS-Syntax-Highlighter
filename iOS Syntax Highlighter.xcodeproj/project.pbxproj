@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A5572F152AB714005EBA94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A5572E152AB714005EBA94 /* UIKit.framework */; };
+		13A55731152AB714005EBA94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A55730152AB714005EBA94 /* Foundation.framework */; };
+		13A55733152AB714005EBA94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A55732152AB714005EBA94 /* CoreGraphics.framework */; };
+		13A55739152AB714005EBA94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13A55737152AB714005EBA94 /* InfoPlist.strings */; };
+		13A5573B152AB714005EBA94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5573A152AB714005EBA94 /* main.m */; };
+		13A5573F152AB714005EBA94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5573E152AB714005EBA94 /* AppDelegate.m */; };
+		13A55742152AB714005EBA94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A55741152AB714005EBA94 /* ViewController.m */; };
+		13A55745152AB714005EBA94 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A55743152AB714005EBA94 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13A5572A152AB714005EBA94 /* iOS Syntax Highlighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Syntax Highlighter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A5572E152AB714005EBA94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13A55730152AB714005EBA94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13A55732152AB714005EBA94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13A55736152AB714005EBA94 /* iOS Syntax Highlighter-Info.plist */ = {isa = PBXFileReference; path = "iOS Syntax Highlighter-Info.plist"; sourceTree = "<group>"; };
+		13A55738152AB714005EBA94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13A5573A152AB714005EBA94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13A5573C152AB714005EBA94 /* iOS Syntax Highlighter-Prefix.pch */ = {isa = PBXFileReference; path = "iOS Syntax Highlighter-Prefix.pch"; sourceTree = "<group>"; };
+		13A5573D152AB714005EBA94 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		13A5573E152AB714005EBA94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13A55740152AB714005EBA94 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		13A55741152AB714005EBA94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13A55744152AB714005EBA94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A55727152AB714005EBA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A5572F152AB714005EBA94 /* UIKit.framework in Frameworks */,
+				13A55731152AB714005EBA94 /* Foundation.framework in Frameworks */,
+				13A55733152AB714005EBA94 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A5571F152AB714005EBA94 = {
+			isa = PBXGroup;
+			children = (
+				13A55734152AB714005EBA94 /* iOS Syntax Highlighter */,
+				13A5572D152AB714005EBA94 /* Frameworks */,
+				13A5572B152AB714005EBA94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13A5572B152AB714005EBA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A5572A152AB714005EBA94 /* iOS Syntax Highlighter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A5572D152AB714005EBA94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13A5572E152AB714005EBA94 /* UIKit.framework */,
+				13A55730152AB714005EBA94 /* Foundation.framework */,
+				13A55732152AB714005EBA94 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13A55734152AB714005EBA94 /* iOS Syntax Highlighter */ = {
+			isa = PBXGroup;
+			children = (
+				13A5573D152AB714005EBA94 /* AppDelegate.h */,
+				13A5573E152AB714005EBA94 /* AppDelegate.m */,
+				13A55740152AB714005EBA94 /* ViewController.h */,
+				13A55741152AB714005EBA94 /* ViewController.m */,
+				13A55743152AB714005EBA94 /* ViewController.xib */,
+				13A55735152AB714005EBA94 /* Supporting Files */,
+			);
+			path = "iOS Syntax Highlighter";
+			sourceTree = "<group>";
+		};
+		13A55735152AB714005EBA94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A55736152AB714005EBA94 /* iOS Syntax Highlighter-Info.plist */,
+				13A55737152AB714005EBA94 /* InfoPlist.strings */,
+				13A5573A152AB714005EBA94 /* main.m */,
+				13A5573C152AB714005EBA94 /* iOS Syntax Highlighter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A55729152AB714005EBA94 /* iOS Syntax Highlighter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A55748152AB714005EBA94 /* Build configuration list for PBXNativeTarget "iOS Syntax Highlighter" */;
+			buildPhases = (
+				13A55726152AB714005EBA94 /* Sources */,
+				13A55727152AB714005EBA94 /* Frameworks */,
+				13A55728152AB714005EBA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Syntax Highlighter";
+			productName = "iOS Syntax Highlighter";
+			productReference = 13A5572A152AB714005EBA94 /* iOS Syntax Highlighter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A55721152AB714005EBA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 13A55724152AB714005EBA94 /* Build configuration list for PBXProject "iOS Syntax Highlighter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13A5571F152AB714005EBA94;
+			productRefGroup = 13A5572B152AB714005EBA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A55729152AB714005EBA94 /* iOS Syntax Highlighter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A55728152AB714005EBA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A55739152AB714005EBA94 /* InfoPlist.strings in Resources */,
+				13A55745152AB714005EBA94 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A55726152AB714005EBA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A5573B152AB714005EBA94 /* main.m in Sources */,
+				13A5573F152AB714005EBA94 /* AppDelegate.m in Sources */,
+				13A55742152AB714005EBA94 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13A55737152AB714005EBA94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A55738152AB714005EBA94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13A55743152AB714005EBA94 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A55744152AB714005EBA94 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A55746152AB714005EBA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13A55747152AB714005EBA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A55749152AB714005EBA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Syntax Highlighter/iOS Syntax Highlighter-Prefix.pch";
+				INFOPLIST_FILE = "iOS Syntax Highlighter/iOS Syntax Highlighter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13A5574A152AB714005EBA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Syntax Highlighter/iOS Syntax Highlighter-Prefix.pch";
+				INFOPLIST_FILE = "iOS Syntax Highlighter/iOS Syntax Highlighter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A55724152AB714005EBA94 /* Build configuration list for PBXProject "iOS Syntax Highlighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A55746152AB714005EBA94 /* Debug */,
+				13A55747152AB714005EBA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A55748152AB714005EBA94 /* Build configuration list for PBXNativeTarget "iOS Syntax Highlighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A55749152AB714005EBA94 /* Debug */,
+				13A5574A152AB714005EBA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13A55721152AB714005EBA94 /* Project object */;
+}
