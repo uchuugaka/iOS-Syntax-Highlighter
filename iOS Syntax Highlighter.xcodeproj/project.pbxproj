@@ -7,30 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13926E58152BEAD7001B6A2B /* CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13926E57152BEAD7001B6A2B /* CTView.m */; };
+		13926E5B152C0333001B6A2B /* CTHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13926E5A152C0333001B6A2B /* CTHighlightView.m */; };
 		13A5572F152AB714005EBA94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A5572E152AB714005EBA94 /* UIKit.framework */; };
 		13A55731152AB714005EBA94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A55730152AB714005EBA94 /* Foundation.framework */; };
 		13A55733152AB714005EBA94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A55732152AB714005EBA94 /* CoreGraphics.framework */; };
 		13A55739152AB714005EBA94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13A55737152AB714005EBA94 /* InfoPlist.strings */; };
 		13A5573B152AB714005EBA94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5573A152AB714005EBA94 /* main.m */; };
 		13A5573F152AB714005EBA94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A5573E152AB714005EBA94 /* AppDelegate.m */; };
-		13A55742152AB714005EBA94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A55741152AB714005EBA94 /* ViewController.m */; };
 		13A55745152AB714005EBA94 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A55743152AB714005EBA94 /* ViewController.xib */; };
+		13A5574F152ABA07005EBA94 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A5574E152ABA07005EBA94 /* CoreText.framework */; };
+		13A55783152ACD3E005EBA94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A55782152ACD3E005EBA94 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13926E56152BEAD7001B6A2B /* CTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTView.h; sourceTree = "<group>"; };
+		13926E57152BEAD7001B6A2B /* CTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTView.m; sourceTree = "<group>"; };
+		13926E59152C0333001B6A2B /* CTHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHighlightView.h; sourceTree = "<group>"; };
+		13926E5A152C0333001B6A2B /* CTHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHighlightView.m; sourceTree = "<group>"; };
 		13A5572A152AB714005EBA94 /* iOS Syntax Highlighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Syntax Highlighter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A5572E152AB714005EBA94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13A55730152AB714005EBA94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13A55732152AB714005EBA94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		13A55736152AB714005EBA94 /* iOS Syntax Highlighter-Info.plist */ = {isa = PBXFileReference; path = "iOS Syntax Highlighter-Info.plist"; sourceTree = "<group>"; };
+		13A55736152AB714005EBA94 /* iOS Syntax Highlighter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Syntax Highlighter-Info.plist"; sourceTree = "<group>"; };
 		13A55738152AB714005EBA94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13A5573A152AB714005EBA94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		13A5573C152AB714005EBA94 /* iOS Syntax Highlighter-Prefix.pch */ = {isa = PBXFileReference; path = "iOS Syntax Highlighter-Prefix.pch"; sourceTree = "<group>"; };
-		13A5573D152AB714005EBA94 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		13A5573C152AB714005EBA94 /* iOS Syntax Highlighter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Syntax Highlighter-Prefix.pch"; sourceTree = "<group>"; };
+		13A5573D152AB714005EBA94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13A5573E152AB714005EBA94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13A55740152AB714005EBA94 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		13A55741152AB714005EBA94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		13A55744152AB714005EBA94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		13A5574E152ABA07005EBA94 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		13A55781152ACD3E005EBA94 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13A55782152ACD3E005EBA94 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A5574F152ABA07005EBA94 /* CoreText.framework in Frameworks */,
 				13A5572F152AB714005EBA94 /* UIKit.framework in Frameworks */,
 				13A55731152AB714005EBA94 /* Foundation.framework in Frameworks */,
 				13A55733152AB714005EBA94 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +59,10 @@
 		13A5571F152AB714005EBA94 = {
 			isa = PBXGroup;
 			children = (
+				13926E59152C0333001B6A2B /* CTHighlightView.h */,
+				13926E5A152C0333001B6A2B /* CTHighlightView.m */,
+				13926E56152BEAD7001B6A2B /* CTView.h */,
+				13926E57152BEAD7001B6A2B /* CTView.m */,
 				13A55734152AB714005EBA94 /* iOS Syntax Highlighter */,
 				13A5572D152AB714005EBA94 /* Frameworks */,
 				13A5572B152AB714005EBA94 /* Products */,
@@ -67,6 +80,7 @@
 		13A5572D152AB714005EBA94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13A5574E152ABA07005EBA94 /* CoreText.framework */,
 				13A5572E152AB714005EBA94 /* UIKit.framework */,
 				13A55730152AB714005EBA94 /* Foundation.framework */,
 				13A55732152AB714005EBA94 /* CoreGraphics.framework */,
@@ -79,9 +93,9 @@
 			children = (
 				13A5573D152AB714005EBA94 /* AppDelegate.h */,
 				13A5573E152AB714005EBA94 /* AppDelegate.m */,
-				13A55740152AB714005EBA94 /* ViewController.h */,
-				13A55741152AB714005EBA94 /* ViewController.m */,
 				13A55743152AB714005EBA94 /* ViewController.xib */,
+				13A55781152ACD3E005EBA94 /* ViewController.h */,
+				13A55782152ACD3E005EBA94 /* ViewController.m */,
 				13A55735152AB714005EBA94 /* Supporting Files */,
 			);
 			path = "iOS Syntax Highlighter";
@@ -162,7 +176,9 @@
 			files = (
 				13A5573B152AB714005EBA94 /* main.m in Sources */,
 				13A5573F152AB714005EBA94 /* AppDelegate.m in Sources */,
-				13A55742152AB714005EBA94 /* ViewController.m in Sources */,
+				13A55783152ACD3E005EBA94 /* ViewController.m in Sources */,
+				13926E58152BEAD7001B6A2B /* CTView.m in Sources */,
+				13926E5B152C0333001B6A2B /* CTHighlightView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +290,7 @@
 				13A5574A152AB714005EBA94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

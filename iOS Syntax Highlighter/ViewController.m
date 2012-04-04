@@ -2,7 +2,7 @@
 //  ViewController.m
 //  iOS Syntax Highlighter
 //
-//  Created by Andrew Boos on 4/2/12.
+//  Created by Andrew Boos on 4/3/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -14,10 +14,28 @@
 
 @implementation ViewController
 
+@synthesize  highlightView;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
 - (void)viewDidLoad
 {
+
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    highlightView = [[CTHighlightView alloc] initWithFrame:CGRectMake(0, 20, 320, 200)];
+    
+    [self.view addSubview:highlightView];
+    
+    [highlightView becomeFirstResponder];
+	// Do any additional setup after loading the view.
 }
 
 - (void)viewDidUnload
@@ -28,7 +46,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end
