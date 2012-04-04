@@ -32,7 +32,7 @@
     if (self) {
         // Initialization code]
         
-    editView = [[CTView alloc] init];
+    editView = [[CTView alloc] initWithFrame:self.frame];
     editView.textViewText = @"";
         editView.backgroundColor = [UIColor clearColor];
        // self.textColor = [UIColor clearColor];

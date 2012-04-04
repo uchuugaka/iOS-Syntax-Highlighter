@@ -30,7 +30,7 @@
 
     [super viewDidLoad];
     
-    highlightView = [[CTHighlightView alloc] initWithFrame:CGRectMake(0, 20, 320, 200)];
+    highlightView = [[CTHighlightView alloc] initWithFrame:CGRectMake(0, 0, 320, 200)];
     
     [self.view addSubview:highlightView];
     

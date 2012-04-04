@@ -8,7 +8,7 @@
 
 #import "CTView.h"
 
-static CGFloat MARGIN = 7;
+static CGFloat MARGIN = 8;
 
 @implementation CTView
 @synthesize textViewText;
@@ -46,8 +46,8 @@ static CGFloat MARGIN = 7;
     CGSize size = self.frame.size;
     
     // Make a frame that has margins
-	CGRect workingFrame = CGRectMake(MARGIN, MARGIN, size.width - 2*MARGIN, size.height - 2*MARGIN);
-    
+	CGRect workingFrame = CGRectMake(MARGIN, MARGIN, size.width - 2*MARGIN, size.height - MARGIN);
+    //CGRect workingFrame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
     
     //Set Font
     CTFontRef font = CTFontCreateWithName(CFSTR("System"), 12.0, NULL);
@@ -80,8 +80,6 @@ static CGFloat MARGIN = 7;
                                                                        attributes:attributesDict];
     
     
-       
-    
     
     // Create path        
     CGMutablePathRef gpath = CGPathCreateMutable();
@@ -89,7 +87,7 @@ static CGFloat MARGIN = 7;
     
     // Create an attributed string
     CGContextSetTextDrawingMode (context, kCGTextFillStroke); 
-    CGContextSetGrayFillColor(context, 0.0, 1.0);
+   //CGContextSetGrayFillColor(context, 0.0, 1.0);
     
     CFAttributedStringRef attrString = (__bridge CFAttributedStringRef) stringToDraw;
     
