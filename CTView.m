@@ -12,6 +12,7 @@ static CGFloat MARGIN = 8;
 
 @implementation CTView
 @synthesize textViewText;
+@synthesize scrollOffset;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -44,11 +45,14 @@ static CGFloat MARGIN = 8;
     
     // Get the view frame size
     CGSize size = self.frame.size;
-    
+
     // Make a frame that has margins
-	CGRect workingFrame = CGRectMake(MARGIN, MARGIN, size.width - 2*MARGIN, size.height - MARGIN);
-    //CGRect workingFrame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+	CGRect workingFrame = CGRectMake(MARGIN - self.scrollOffset.x, MARGIN - self.scrollOffset.y, (size.width - 2*MARGIN) , (size.height - MARGIN));
+
+//CGRect workingFrame = CGRectMake(MARGIN - self.scrollOffset.x, MARGIN - self.scrollOffset.y, (size.width - 2*MARGIN) , (size.height - MARGIN));
     
+    NSLog(@"Height: %f", self.frame.size.height);
+
     //Set Font
     CTFontRef font = CTFontCreateWithName(CFSTR("System"), 12.0, NULL);
     
@@ -66,20 +70,25 @@ static CGFloat MARGIN = 8;
     CGColorRef color = [UIColor blueColor].CGColor;
     
     //Set Underline
-    NSNumber* underline = [NSNumber numberWithInt:kCTUnderlineStyleSingle|kCTUnderlinePatternDot];
+   // NSNumber* underline = [NSNumber numberWithInt:kCTUnderlineStyleSingle|kCTUnderlinePatternDot];
     
     //Set Attributes
-    NSDictionary* attributesDict = [NSDictionary dictionaryWithObjectsAndKeys:
-                                    (__bridge id)font,(NSString*)kCTFontAttributeName,
-                                    color, (NSString*)kCTForegroundColorAttributeName,
-                                    underline,(NSString*)kCTUnderlineStyleAttributeName,
-                                    nil];
+   // NSDictionary* attributesDict = [NSDictionary dictionaryWithObjectsAndKeys:
+     //                               (__bridge id)font,(NSString*)kCTFontAttributeName,
+       //                             color, (NSString*)kCTForegroundColorAttributeName,
+         //                           underline,(NSString*)kCTUnderlineStyleAttributeName,
+           //                         nil];
+    
+    
+     NSDictionary* attributesDict = [NSDictionary dictionaryWithObjectsAndKeys:
+                                   (__bridge id)font,(NSString*)kCTFontAttributeName,
+                                 color, (NSString*)kCTForegroundColorAttributeName,
+                             nil];
+    
     
     //Create Attributed String
     NSAttributedString* stringToDraw = [[NSAttributedString alloc] initWithString:string
                                                                        attributes:attributesDict];
-    
-    
     
     // Create path        
     CGMutablePathRef gpath = CGPathCreateMutable();

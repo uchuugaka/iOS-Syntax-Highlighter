@@ -9,16 +9,18 @@
 #import "CTHighlightView.h"
 #import "CTView.h"
 @interface CTHighlightViewDelegate : NSObject <UITextViewDelegate>
-
+@property  CGPoint scrollOffset;
 @end
 
 @implementation CTHighlightViewDelegate
+@synthesize scrollOffset;
 - (void)textViewDidChange:(UITextView *)textView {
     NSLog(@"Text Changed");
     [textView setNeedsDisplay];
 }
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     NSLog(@"Text Scrolled");
+    self.scrollOffset = scrollView.contentOffset;
 	[scrollView setNeedsDisplay];
 }
 @end
@@ -31,10 +33,13 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code]
-        
+    
+    ctHighlightViewDelegate = [[CTHighlightViewDelegate alloc] init];
+
     editView = [[CTView alloc] initWithFrame:self.frame];
     editView.textViewText = @"";
         editView.backgroundColor = [UIColor clearColor];
+        
        // self.textColor = [UIColor clearColor];
     [self addSubview:editView];
         
@@ -53,7 +58,7 @@
 - (void)setNeedsDisplay {
 	[super setNeedsDisplay];
     
-    NSLog(@"Set needs display in highlightingtextview:%@",self.text);
+    //NSLog(@"Set needs display in highlightingtextview:%@",self.text);
     if (self.text.length > 0) {
         editView.textViewText = [[NSString alloc] initWithString:self.text];
     } else {
@@ -61,6 +66,8 @@
         
     }
     
+    editView.scrollOffset =  self.contentOffset;
+
 	[editView setNeedsDisplay];
 }
 

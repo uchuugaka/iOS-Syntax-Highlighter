@@ -9,13 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @class CTView;
+@class CTHighlightViewDelegate;
 
 @interface CTHighlightView : UITextView {
     
     id internalDelegate;
     CTView* editView;
+    CTHighlightViewDelegate* ctHighlightViewDelegate;
 
 }
-
 @property (nonatomic, retain) CTView* ctView;
+
 @end

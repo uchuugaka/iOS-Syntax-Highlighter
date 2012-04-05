@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <CoreText/CoreText.h>
 
+
 @interface CTView : UIView
 
 @property (nonatomic, retain) NSString* textViewText;
-
+@property (nonatomic) CGPoint scrollOffset;
 @end
