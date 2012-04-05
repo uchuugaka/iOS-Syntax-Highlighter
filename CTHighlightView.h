@@ -7,17 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreText/CoreText.h>
 
-@class CTView;
-@class CTHighlightViewDelegate;
-
-@interface CTHighlightView : UITextView {
+@interface CTHighlightView : UITextView <UITextViewDelegate> {
     
     id internalDelegate;
-    CTView* editView;
-    CTHighlightViewDelegate* ctHighlightViewDelegate;
 
 }
-@property (nonatomic, retain) CTView* ctView;
+
+- (NSRange)visibleRangeOfTextView:(UITextView *)textView;
 
 @end

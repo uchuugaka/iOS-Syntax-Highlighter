@@ -27,11 +27,11 @@
 
 - (void)viewDidLoad
 {
-
     [super viewDidLoad];
     
     highlightView = [[CTHighlightView alloc] initWithFrame:CGRectMake(0, 0, 320, 200)];
-    
+    highlightView.font = [UIFont fontWithName:@"DejaVuSansMono" size:11.f];
+    //highlightView.textAlignment = UITextAlignmentLeft;
     [self.view addSubview:highlightView];
     
     [highlightView becomeFirstResponder];

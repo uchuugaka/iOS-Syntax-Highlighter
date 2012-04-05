@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CTHighlightView.h"
 
-@interface ViewController : UIViewController {
+@interface ViewController : UIViewController  {
     CTHighlightView*    highlightView;
     
 }
