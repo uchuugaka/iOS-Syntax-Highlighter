@@ -29,10 +29,10 @@ static CGFloat MARGIN = 8.5;
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.text = @"2";
+        self.text = @"";
        // self.backgroundColor = [UIColor whiteColor];
-        //self.textColor = [UIColor clearColor]; 
-        self.textColor = [UIColor redColor]; 
+        self.textColor = [UIColor clearColor]; 
+        //self.textColor = [UIColor redColor]; 
         internalDelegate = [[CTHighlightViewDelegate alloc] init];
         self.delegate = internalDelegate;
     }
@@ -43,12 +43,6 @@ static CGFloat MARGIN = 8.5;
 -(void)drawRect:(CGRect)rect
 {
     if (self.text.length > 0) {
-        
-    } else {
-        self.text = [[NSString alloc] initWithString:@""];
-
-    }
-    
     
     //Prepare View for drawing
     CGContextRef context = UIGraphicsGetCurrentContext();
@@ -64,19 +58,7 @@ static CGFloat MARGIN = 8.5;
     NSLog(@"CO:%f",self.contentOffset.y);
 
     // Make a frame that has margins
-    CGRect workingFrame;
-  
-	if (self.contentOffset.y > 0) {
-    
-    workingFrame = CGRectMake(MARGIN, (-self.contentOffset.y + 0), (size.width - 2*MARGIN - 0) , (size.height + self.contentOffset.y - MARGIN + 1));
-    
-    } else {
-        
-    workingFrame = CGRectMake(MARGIN, 0, (size.width - 2*MARGIN - 0) , (size.height - MARGIN + 1));
-
-    }
-
-    
+    CGRect workingFrame = CGRectMake(MARGIN + 0.0, (-self.contentOffset.y + 0), (size.width - 2*MARGIN - 0) , (size.height + self.contentOffset.y - MARGIN + 1));
     
     //Set Font
     CTFontRef font = CTFontCreateWithName((__bridge CFStringRef)self.font.fontName, 
@@ -86,22 +68,22 @@ static CGFloat MARGIN = 8.5;
     //Set color
     CGColorRef color = [UIColor blackColor].CGColor;
     
-    CGFloat lineSpacing = 0.0;
-    CGFloat marginTop = 0.0;    
-    CGFloat marginBot = 0.0;
+    //CGFloat lineSpacing = 0.0;
+    //CGFloat marginTop = 0.0;    
+   // CGFloat marginBot = 0.0;
     
     CGFloat minlineHeight = [self.text sizeWithFont:self.font].height;
     
     CGFloat maxlineHeight = [self.text sizeWithFont:self.font].height;
 
-    CTLineBreakMode lineBreakMode = kCTParagraphStyleSpecifierLineHeightMultiple;
+   // CTLineBreakMode lineBreakMode = kCTParagraphStyleSpecifierLineHeightMultiple;
 
 
 
     NSLog(@"MiLH:%f",minlineHeight);
     NSLog(@"MzLH:%f",maxlineHeight);
 
-    CTParagraphStyleSetting setting[5] = {
+    CTParagraphStyleSetting setting[2] = {
         { kCTParagraphStyleSpecifierMinimumLineHeight, sizeof(minlineHeight), &minlineHeight },
         { kCTParagraphStyleSpecifierMaximumLineHeight, sizeof(maxlineHeight), &maxlineHeight },
         //{ kCTParagraphStyleSpecifierParagraphSpacingBefore, sizeof(marginTop), &marginTop},
@@ -111,7 +93,7 @@ static CGFloat MARGIN = 8.5;
 
     };
     
-    CTParagraphStyleRef paragraphStyle = CTParagraphStyleCreate(setting, 5);
+    CTParagraphStyleRef paragraphStyle = CTParagraphStyleCreate(setting, 2);
     
     
     NSDictionary* attributesDict = [NSDictionary dictionaryWithObjectsAndKeys:
@@ -142,6 +124,14 @@ static CGFloat MARGIN = 8.5;
                                                       CFAttributedStringGetLength(attrString)), gpath, NULL);
     
     CTFrameDraw(theFrame, context);
+        
+        
+        
+        
+    } else {
+        self.text = [[NSString alloc] initWithString:@""];
+        
+    }
         
 }
 - (NSRange)visibleRangeOfTextView:(UITextView *)textView {
