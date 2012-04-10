@@ -29,7 +29,7 @@
 {
     [super viewDidLoad];
     
-    highlightView = [[CTHighlightView alloc] initWithFrame:CGRectMake(0, 0, 320, 200)];
+    highlightView = [[CTHighlightView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 200)];
     highlightView.font = [UIFont systemFontOfSize:11];
     //[UIFont fontWithName:@"DejaVuSansMono" size:11.f];
     //highlightView.textAlignment = UITextAlignmentLeft;
@@ -47,7 +47,8 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+   // return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return YES;
 }
 
 @end
