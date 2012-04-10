@@ -7,6 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13474C831533A40F0020CDB1 /* actionscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C311533A40F0020CDB1 /* actionscript.plist */; };
+		13474C841533A40F0020CDB1 /* actionscript3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C321533A40F0020CDB1 /* actionscript3.plist */; };
+		13474C851533A40F0020CDB1 /* active4d.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C331533A40F0020CDB1 /* active4d.plist */; };
+		13474C861533A40F0020CDB1 /* ada.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C341533A40F0020CDB1 /* ada.plist */; };
+		13474C871533A40F0020CDB1 /* ampl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C351533A40F0020CDB1 /* ampl.plist */; };
+		13474C881533A40F0020CDB1 /* apache.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C361533A40F0020CDB1 /* apache.plist */; };
+		13474C891533A40F0020CDB1 /* applescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C371533A40F0020CDB1 /* applescript.plist */; };
+		13474C8A1533A40F0020CDB1 /* asm-mips.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C381533A40F0020CDB1 /* asm-mips.plist */; };
+		13474C8B1533A40F0020CDB1 /* asm-x86.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C391533A40F0020CDB1 /* asm-x86.plist */; };
+		13474C8C1533A40F0020CDB1 /* asp-js.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C3A1533A40F0020CDB1 /* asp-js.plist */; };
+		13474C8D1533A40F0020CDB1 /* asp-vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C3B1533A40F0020CDB1 /* asp-vb.plist */; };
+		13474C8E1533A40F0020CDB1 /* aspdotnet-cs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C3C1533A40F0020CDB1 /* aspdotnet-cs.plist */; };
+		13474C8F1533A40F0020CDB1 /* aspdotnet-vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C3D1533A40F0020CDB1 /* aspdotnet-vb.plist */; };
+		13474C901533A40F0020CDB1 /* awk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C3E1533A40F0020CDB1 /* awk.plist */; };
+		13474C911533A40F0020CDB1 /* batch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C3F1533A40F0020CDB1 /* batch.plist */; };
+		13474C921533A40F0020CDB1 /* c.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C401533A40F0020CDB1 /* c.plist */; };
+		13474C931533A40F0020CDB1 /* cobol.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C411533A40F0020CDB1 /* cobol.plist */; };
+		13474C941533A40F0020CDB1 /* coldfusion.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C421533A40F0020CDB1 /* coldfusion.plist */; };
+		13474C951533A40F0020CDB1 /* cpp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C431533A40F0020CDB1 /* cpp.plist */; };
+		13474C961533A40F0020CDB1 /* csharp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C441533A40F0020CDB1 /* csharp.plist */; };
+		13474C971533A40F0020CDB1 /* csound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C451533A40F0020CDB1 /* csound.plist */; };
+		13474C981533A40F0020CDB1 /* css.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C461533A40F0020CDB1 /* css.plist */; };
+		13474C991533A40F0020CDB1 /* d.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C471533A40F0020CDB1 /* d.plist */; };
+		13474C9A1533A40F0020CDB1 /* dylan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C481533A40F0020CDB1 /* dylan.plist */; };
+		13474C9B1533A40F0020CDB1 /* eiffel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C491533A40F0020CDB1 /* eiffel.plist */; };
+		13474C9C1533A40F0020CDB1 /* erl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C4A1533A40F0020CDB1 /* erl.plist */; };
+		13474C9D1533A40F0020CDB1 /* eztpl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C4B1533A40F0020CDB1 /* eztpl.plist */; };
+		13474C9E1533A40F0020CDB1 /* fortran.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C4C1533A40F0020CDB1 /* fortran.plist */; };
+		13474C9F1533A40F0020CDB1 /* freefem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C4D1533A40F0020CDB1 /* freefem.plist */; };
+		13474CA01533A40F0020CDB1 /* gedcom.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C4E1533A40F0020CDB1 /* gedcom.plist */; };
+		13474CA11533A40F0020CDB1 /* gnuassembler.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C4F1533A40F0020CDB1 /* gnuassembler.plist */; };
+		13474CA21533A40F0020CDB1 /* haskell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C501533A40F0020CDB1 /* haskell.plist */; };
+		13474CA31533A40F0020CDB1 /* header.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C511533A40F0020CDB1 /* header.plist */; };
+		13474CA41533A40F0020CDB1 /* html.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C521533A40F0020CDB1 /* html.plist */; };
+		13474CA51533A40F0020CDB1 /* idl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C531533A40F0020CDB1 /* idl.plist */; };
+		13474CA61533A40F0020CDB1 /* java.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C541533A40F0020CDB1 /* java.plist */; };
+		13474CA71533A40F0020CDB1 /* javafx.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C551533A40F0020CDB1 /* javafx.plist */; };
+		13474CA81533A40F0020CDB1 /* javascript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C561533A40F0020CDB1 /* javascript.plist */; };
+		13474CA91533A40F0020CDB1 /* jsp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C571533A40F0020CDB1 /* jsp.plist */; };
+		13474CAA1533A40F0020CDB1 /* latex.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C581533A40F0020CDB1 /* latex.plist */; };
+		13474CAB1533A40F0020CDB1 /* lilypond.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C591533A40F0020CDB1 /* lilypond.plist */; };
+		13474CAC1533A40F0020CDB1 /* lisp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C5A1533A40F0020CDB1 /* lisp.plist */; };
+		13474CAD1533A40F0020CDB1 /* logtalk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C5B1533A40F0020CDB1 /* logtalk.plist */; };
+		13474CAE1533A40F0020CDB1 /* lsl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C5C1533A40F0020CDB1 /* lsl.plist */; };
+		13474CAF1533A40F0020CDB1 /* lua.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C5D1533A40F0020CDB1 /* lua.plist */; };
+		13474CB01533A40F0020CDB1 /* matlab.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C5E1533A40F0020CDB1 /* matlab.plist */; };
+		13474CB11533A40F0020CDB1 /* mel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C5F1533A40F0020CDB1 /* mel.plist */; };
+		13474CB21533A40F0020CDB1 /* metapost.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C601533A40F0020CDB1 /* metapost.plist */; };
+		13474CB31533A40F0020CDB1 /* metaslang.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C611533A40F0020CDB1 /* metaslang.plist */; };
+		13474CB41533A40F0020CDB1 /* mysql.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C621533A40F0020CDB1 /* mysql.plist */; };
+		13474CB51533A40F0020CDB1 /* nemerle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C631533A40F0020CDB1 /* nemerle.plist */; };
+		13474CB61533A40F0020CDB1 /* none.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C641533A40F0020CDB1 /* none.plist */; };
+		13474CB71533A40F0020CDB1 /* nrnhoc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C651533A40F0020CDB1 /* nrnhoc.plist */; };
+		13474CB81533A40F0020CDB1 /* objectivec.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C661533A40F0020CDB1 /* objectivec.plist */; };
+		13474CB91533A40F0020CDB1 /* objectivecaml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C671533A40F0020CDB1 /* objectivecaml.plist */; };
+		13474CBA1533A40F0020CDB1 /* ox.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C681533A40F0020CDB1 /* ox.plist */; };
+		13474CBB1533A40F0020CDB1 /* pascal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C691533A40F0020CDB1 /* pascal.plist */; };
+		13474CBC1533A40F0020CDB1 /* pdf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C6A1533A40F0020CDB1 /* pdf.plist */; };
+		13474CBD1533A40F0020CDB1 /* perl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C6B1533A40F0020CDB1 /* perl.plist */; };
+		13474CBE1533A40F0020CDB1 /* php.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C6C1533A40F0020CDB1 /* php.plist */; };
+		13474CBF1533A40F0020CDB1 /* plist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C6D1533A40F0020CDB1 /* plist.plist */; };
+		13474CC01533A40F0020CDB1 /* postscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C6E1533A40F0020CDB1 /* postscript.plist */; };
+		13474CC11533A40F0020CDB1 /* prolog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C6F1533A40F0020CDB1 /* prolog.plist */; };
+		13474CC21533A40F0020CDB1 /* python.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C701533A40F0020CDB1 /* python.plist */; };
+		13474CC31533A40F0020CDB1 /* r.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C711533A40F0020CDB1 /* r.plist */; };
+		13474CC41533A40F0020CDB1 /* rhtml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C721533A40F0020CDB1 /* rhtml.plist */; };
+		13474CC51533A40F0020CDB1 /* ruby.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C731533A40F0020CDB1 /* ruby.plist */; };
+		13474CC61533A40F0020CDB1 /* scala.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C741533A40F0020CDB1 /* scala.plist */; };
+		13474CC71533A40F0020CDB1 /* sgml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C751533A40F0020CDB1 /* sgml.plist */; };
+		13474CC81533A40F0020CDB1 /* shell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C761533A40F0020CDB1 /* shell.plist */; };
+		13474CC91533A40F0020CDB1 /* sml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C771533A40F0020CDB1 /* sml.plist */; };
+		13474CCA1533A40F0020CDB1 /* sql.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C781533A40F0020CDB1 /* sql.plist */; };
+		13474CCB1533A40F0020CDB1 /* standard.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C791533A40F0020CDB1 /* standard.plist */; };
+		13474CCC1533A40F0020CDB1 /* stata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C7A1533A40F0020CDB1 /* stata.plist */; };
+		13474CCD1533A40F0020CDB1 /* supercollider.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C7B1533A40F0020CDB1 /* supercollider.plist */; };
+		13474CCE1533A40F0020CDB1 /* tcltk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C7C1533A40F0020CDB1 /* tcltk.plist */; };
+		13474CCF1533A40F0020CDB1 /* torquescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C7D1533A40F0020CDB1 /* torquescript.plist */; };
+		13474CD01533A40F0020CDB1 /* udo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C7E1533A40F0020CDB1 /* udo.plist */; };
+		13474CD11533A40F0020CDB1 /* vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C7F1533A40F0020CDB1 /* vb.plist */; };
+		13474CD21533A40F0020CDB1 /* verilog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C801533A40F0020CDB1 /* verilog.plist */; };
+		13474CD31533A40F0020CDB1 /* vhdl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C811533A40F0020CDB1 /* vhdl.plist */; };
+		13474CD41533A40F0020CDB1 /* xml.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13474C821533A40F0020CDB1 /* xml.plist */; };
 		13926E5B152C0333001B6A2B /* CTHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13926E5A152C0333001B6A2B /* CTHighlightView.m */; };
 		13A5572F152AB714005EBA94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A5572E152AB714005EBA94 /* UIKit.framework */; };
 		13A55731152AB714005EBA94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A55730152AB714005EBA94 /* Foundation.framework */; };
@@ -21,6 +103,88 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13474C311533A40F0020CDB1 /* actionscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript.plist; sourceTree = "<group>"; };
+		13474C321533A40F0020CDB1 /* actionscript3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript3.plist; sourceTree = "<group>"; };
+		13474C331533A40F0020CDB1 /* active4d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = active4d.plist; sourceTree = "<group>"; };
+		13474C341533A40F0020CDB1 /* ada.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ada.plist; sourceTree = "<group>"; };
+		13474C351533A40F0020CDB1 /* ampl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ampl.plist; sourceTree = "<group>"; };
+		13474C361533A40F0020CDB1 /* apache.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apache.plist; sourceTree = "<group>"; };
+		13474C371533A40F0020CDB1 /* applescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = applescript.plist; sourceTree = "<group>"; };
+		13474C381533A40F0020CDB1 /* asm-mips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asm-mips.plist"; sourceTree = "<group>"; };
+		13474C391533A40F0020CDB1 /* asm-x86.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asm-x86.plist"; sourceTree = "<group>"; };
+		13474C3A1533A40F0020CDB1 /* asp-js.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asp-js.plist"; sourceTree = "<group>"; };
+		13474C3B1533A40F0020CDB1 /* asp-vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asp-vb.plist"; sourceTree = "<group>"; };
+		13474C3C1533A40F0020CDB1 /* aspdotnet-cs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aspdotnet-cs.plist"; sourceTree = "<group>"; };
+		13474C3D1533A40F0020CDB1 /* aspdotnet-vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aspdotnet-vb.plist"; sourceTree = "<group>"; };
+		13474C3E1533A40F0020CDB1 /* awk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = awk.plist; sourceTree = "<group>"; };
+		13474C3F1533A40F0020CDB1 /* batch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = batch.plist; sourceTree = "<group>"; };
+		13474C401533A40F0020CDB1 /* c.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = c.plist; sourceTree = "<group>"; };
+		13474C411533A40F0020CDB1 /* cobol.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cobol.plist; sourceTree = "<group>"; };
+		13474C421533A40F0020CDB1 /* coldfusion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = coldfusion.plist; sourceTree = "<group>"; };
+		13474C431533A40F0020CDB1 /* cpp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cpp.plist; sourceTree = "<group>"; };
+		13474C441533A40F0020CDB1 /* csharp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = csharp.plist; sourceTree = "<group>"; };
+		13474C451533A40F0020CDB1 /* csound.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = csound.plist; sourceTree = "<group>"; };
+		13474C461533A40F0020CDB1 /* css.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = css.plist; sourceTree = "<group>"; };
+		13474C471533A40F0020CDB1 /* d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = d.plist; sourceTree = "<group>"; };
+		13474C481533A40F0020CDB1 /* dylan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylan.plist; sourceTree = "<group>"; };
+		13474C491533A40F0020CDB1 /* eiffel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = eiffel.plist; sourceTree = "<group>"; };
+		13474C4A1533A40F0020CDB1 /* erl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = erl.plist; sourceTree = "<group>"; };
+		13474C4B1533A40F0020CDB1 /* eztpl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = eztpl.plist; sourceTree = "<group>"; };
+		13474C4C1533A40F0020CDB1 /* fortran.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fortran.plist; sourceTree = "<group>"; };
+		13474C4D1533A40F0020CDB1 /* freefem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = freefem.plist; sourceTree = "<group>"; };
+		13474C4E1533A40F0020CDB1 /* gedcom.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gedcom.plist; sourceTree = "<group>"; };
+		13474C4F1533A40F0020CDB1 /* gnuassembler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gnuassembler.plist; sourceTree = "<group>"; };
+		13474C501533A40F0020CDB1 /* haskell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = haskell.plist; sourceTree = "<group>"; };
+		13474C511533A40F0020CDB1 /* header.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = header.plist; sourceTree = "<group>"; };
+		13474C521533A40F0020CDB1 /* html.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = html.plist; sourceTree = "<group>"; };
+		13474C531533A40F0020CDB1 /* idl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = idl.plist; sourceTree = "<group>"; };
+		13474C541533A40F0020CDB1 /* java.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = java.plist; sourceTree = "<group>"; };
+		13474C551533A40F0020CDB1 /* javafx.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = javafx.plist; sourceTree = "<group>"; };
+		13474C561533A40F0020CDB1 /* javascript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = javascript.plist; sourceTree = "<group>"; };
+		13474C571533A40F0020CDB1 /* jsp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jsp.plist; sourceTree = "<group>"; };
+		13474C581533A40F0020CDB1 /* latex.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = latex.plist; sourceTree = "<group>"; };
+		13474C591533A40F0020CDB1 /* lilypond.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lilypond.plist; sourceTree = "<group>"; };
+		13474C5A1533A40F0020CDB1 /* lisp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lisp.plist; sourceTree = "<group>"; };
+		13474C5B1533A40F0020CDB1 /* logtalk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = logtalk.plist; sourceTree = "<group>"; };
+		13474C5C1533A40F0020CDB1 /* lsl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lsl.plist; sourceTree = "<group>"; };
+		13474C5D1533A40F0020CDB1 /* lua.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lua.plist; sourceTree = "<group>"; };
+		13474C5E1533A40F0020CDB1 /* matlab.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = matlab.plist; sourceTree = "<group>"; };
+		13474C5F1533A40F0020CDB1 /* mel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mel.plist; sourceTree = "<group>"; };
+		13474C601533A40F0020CDB1 /* metapost.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metapost.plist; sourceTree = "<group>"; };
+		13474C611533A40F0020CDB1 /* metaslang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metaslang.plist; sourceTree = "<group>"; };
+		13474C621533A40F0020CDB1 /* mysql.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mysql.plist; sourceTree = "<group>"; };
+		13474C631533A40F0020CDB1 /* nemerle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nemerle.plist; sourceTree = "<group>"; };
+		13474C641533A40F0020CDB1 /* none.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = none.plist; sourceTree = "<group>"; };
+		13474C651533A40F0020CDB1 /* nrnhoc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nrnhoc.plist; sourceTree = "<group>"; };
+		13474C661533A40F0020CDB1 /* objectivec.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objectivec.plist; sourceTree = "<group>"; };
+		13474C671533A40F0020CDB1 /* objectivecaml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objectivecaml.plist; sourceTree = "<group>"; };
+		13474C681533A40F0020CDB1 /* ox.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ox.plist; sourceTree = "<group>"; };
+		13474C691533A40F0020CDB1 /* pascal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pascal.plist; sourceTree = "<group>"; };
+		13474C6A1533A40F0020CDB1 /* pdf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pdf.plist; sourceTree = "<group>"; };
+		13474C6B1533A40F0020CDB1 /* perl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = perl.plist; sourceTree = "<group>"; };
+		13474C6C1533A40F0020CDB1 /* php.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = php.plist; sourceTree = "<group>"; };
+		13474C6D1533A40F0020CDB1 /* plist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = plist.plist; sourceTree = "<group>"; };
+		13474C6E1533A40F0020CDB1 /* postscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = postscript.plist; sourceTree = "<group>"; };
+		13474C6F1533A40F0020CDB1 /* prolog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = prolog.plist; sourceTree = "<group>"; };
+		13474C701533A40F0020CDB1 /* python.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = python.plist; sourceTree = "<group>"; };
+		13474C711533A40F0020CDB1 /* r.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = r.plist; sourceTree = "<group>"; };
+		13474C721533A40F0020CDB1 /* rhtml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rhtml.plist; sourceTree = "<group>"; };
+		13474C731533A40F0020CDB1 /* ruby.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ruby.plist; sourceTree = "<group>"; };
+		13474C741533A40F0020CDB1 /* scala.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scala.plist; sourceTree = "<group>"; };
+		13474C751533A40F0020CDB1 /* sgml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sgml.plist; sourceTree = "<group>"; };
+		13474C761533A40F0020CDB1 /* shell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shell.plist; sourceTree = "<group>"; };
+		13474C771533A40F0020CDB1 /* sml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sml.plist; sourceTree = "<group>"; };
+		13474C781533A40F0020CDB1 /* sql.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sql.plist; sourceTree = "<group>"; };
+		13474C791533A40F0020CDB1 /* standard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = standard.plist; sourceTree = "<group>"; };
+		13474C7A1533A40F0020CDB1 /* stata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stata.plist; sourceTree = "<group>"; };
+		13474C7B1533A40F0020CDB1 /* supercollider.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = supercollider.plist; sourceTree = "<group>"; };
+		13474C7C1533A40F0020CDB1 /* tcltk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tcltk.plist; sourceTree = "<group>"; };
+		13474C7D1533A40F0020CDB1 /* torquescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = torquescript.plist; sourceTree = "<group>"; };
+		13474C7E1533A40F0020CDB1 /* udo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = udo.plist; sourceTree = "<group>"; };
+		13474C7F1533A40F0020CDB1 /* vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vb.plist; sourceTree = "<group>"; };
+		13474C801533A40F0020CDB1 /* verilog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = verilog.plist; sourceTree = "<group>"; };
+		13474C811533A40F0020CDB1 /* vhdl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vhdl.plist; sourceTree = "<group>"; };
+		13474C821533A40F0020CDB1 /* xml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = xml.plist; sourceTree = "<group>"; };
 		13926E59152C0333001B6A2B /* CTHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHighlightView.h; sourceTree = "<group>"; };
 		13926E5A152C0333001B6A2B /* CTHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHighlightView.m; sourceTree = "<group>"; };
 		13A5572A152AB714005EBA94 /* iOS Syntax Highlighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Syntax Highlighter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,11 +219,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13474C301533A40F0020CDB1 /* Syntax Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				13474C311533A40F0020CDB1 /* actionscript.plist */,
+				13474C321533A40F0020CDB1 /* actionscript3.plist */,
+				13474C331533A40F0020CDB1 /* active4d.plist */,
+				13474C341533A40F0020CDB1 /* ada.plist */,
+				13474C351533A40F0020CDB1 /* ampl.plist */,
+				13474C361533A40F0020CDB1 /* apache.plist */,
+				13474C371533A40F0020CDB1 /* applescript.plist */,
+				13474C381533A40F0020CDB1 /* asm-mips.plist */,
+				13474C391533A40F0020CDB1 /* asm-x86.plist */,
+				13474C3A1533A40F0020CDB1 /* asp-js.plist */,
+				13474C3B1533A40F0020CDB1 /* asp-vb.plist */,
+				13474C3C1533A40F0020CDB1 /* aspdotnet-cs.plist */,
+				13474C3D1533A40F0020CDB1 /* aspdotnet-vb.plist */,
+				13474C3E1533A40F0020CDB1 /* awk.plist */,
+				13474C3F1533A40F0020CDB1 /* batch.plist */,
+				13474C401533A40F0020CDB1 /* c.plist */,
+				13474C411533A40F0020CDB1 /* cobol.plist */,
+				13474C421533A40F0020CDB1 /* coldfusion.plist */,
+				13474C431533A40F0020CDB1 /* cpp.plist */,
+				13474C441533A40F0020CDB1 /* csharp.plist */,
+				13474C451533A40F0020CDB1 /* csound.plist */,
+				13474C461533A40F0020CDB1 /* css.plist */,
+				13474C471533A40F0020CDB1 /* d.plist */,
+				13474C481533A40F0020CDB1 /* dylan.plist */,
+				13474C491533A40F0020CDB1 /* eiffel.plist */,
+				13474C4A1533A40F0020CDB1 /* erl.plist */,
+				13474C4B1533A40F0020CDB1 /* eztpl.plist */,
+				13474C4C1533A40F0020CDB1 /* fortran.plist */,
+				13474C4D1533A40F0020CDB1 /* freefem.plist */,
+				13474C4E1533A40F0020CDB1 /* gedcom.plist */,
+				13474C4F1533A40F0020CDB1 /* gnuassembler.plist */,
+				13474C501533A40F0020CDB1 /* haskell.plist */,
+				13474C511533A40F0020CDB1 /* header.plist */,
+				13474C521533A40F0020CDB1 /* html.plist */,
+				13474C531533A40F0020CDB1 /* idl.plist */,
+				13474C541533A40F0020CDB1 /* java.plist */,
+				13474C551533A40F0020CDB1 /* javafx.plist */,
+				13474C561533A40F0020CDB1 /* javascript.plist */,
+				13474C571533A40F0020CDB1 /* jsp.plist */,
+				13474C581533A40F0020CDB1 /* latex.plist */,
+				13474C591533A40F0020CDB1 /* lilypond.plist */,
+				13474C5A1533A40F0020CDB1 /* lisp.plist */,
+				13474C5B1533A40F0020CDB1 /* logtalk.plist */,
+				13474C5C1533A40F0020CDB1 /* lsl.plist */,
+				13474C5D1533A40F0020CDB1 /* lua.plist */,
+				13474C5E1533A40F0020CDB1 /* matlab.plist */,
+				13474C5F1533A40F0020CDB1 /* mel.plist */,
+				13474C601533A40F0020CDB1 /* metapost.plist */,
+				13474C611533A40F0020CDB1 /* metaslang.plist */,
+				13474C621533A40F0020CDB1 /* mysql.plist */,
+				13474C631533A40F0020CDB1 /* nemerle.plist */,
+				13474C641533A40F0020CDB1 /* none.plist */,
+				13474C651533A40F0020CDB1 /* nrnhoc.plist */,
+				13474C661533A40F0020CDB1 /* objectivec.plist */,
+				13474C671533A40F0020CDB1 /* objectivecaml.plist */,
+				13474C681533A40F0020CDB1 /* ox.plist */,
+				13474C691533A40F0020CDB1 /* pascal.plist */,
+				13474C6A1533A40F0020CDB1 /* pdf.plist */,
+				13474C6B1533A40F0020CDB1 /* perl.plist */,
+				13474C6C1533A40F0020CDB1 /* php.plist */,
+				13474C6D1533A40F0020CDB1 /* plist.plist */,
+				13474C6E1533A40F0020CDB1 /* postscript.plist */,
+				13474C6F1533A40F0020CDB1 /* prolog.plist */,
+				13474C701533A40F0020CDB1 /* python.plist */,
+				13474C711533A40F0020CDB1 /* r.plist */,
+				13474C721533A40F0020CDB1 /* rhtml.plist */,
+				13474C731533A40F0020CDB1 /* ruby.plist */,
+				13474C741533A40F0020CDB1 /* scala.plist */,
+				13474C751533A40F0020CDB1 /* sgml.plist */,
+				13474C761533A40F0020CDB1 /* shell.plist */,
+				13474C771533A40F0020CDB1 /* sml.plist */,
+				13474C781533A40F0020CDB1 /* sql.plist */,
+				13474C791533A40F0020CDB1 /* standard.plist */,
+				13474C7A1533A40F0020CDB1 /* stata.plist */,
+				13474C7B1533A40F0020CDB1 /* supercollider.plist */,
+				13474C7C1533A40F0020CDB1 /* tcltk.plist */,
+				13474C7D1533A40F0020CDB1 /* torquescript.plist */,
+				13474C7E1533A40F0020CDB1 /* udo.plist */,
+				13474C7F1533A40F0020CDB1 /* vb.plist */,
+				13474C801533A40F0020CDB1 /* verilog.plist */,
+				13474C811533A40F0020CDB1 /* vhdl.plist */,
+				13474C821533A40F0020CDB1 /* xml.plist */,
+			);
+			name = "Syntax Definitions";
+			path = "iOS Syntax Highlighter/Syntax Definitions";
+			sourceTree = "<group>";
+		};
 		13A5571F152AB714005EBA94 = {
 			isa = PBXGroup;
 			children = (
 				13926E59152C0333001B6A2B /* CTHighlightView.h */,
 				13926E5A152C0333001B6A2B /* CTHighlightView.m */,
+				13474C301533A40F0020CDB1 /* Syntax Definitions */,
 				13A55734152AB714005EBA94 /* iOS Syntax Highlighter */,
 				13A5572D152AB714005EBA94 /* Frameworks */,
 				13A5572B152AB714005EBA94 /* Products */,
@@ -163,6 +418,88 @@
 				13A55739152AB714005EBA94 /* InfoPlist.strings in Resources */,
 				13A55745152AB714005EBA94 /* ViewController.xib in Resources */,
 				13AF8BE8152D4AE6007F2504 /* DejaVuSansMono.ttf in Resources */,
+				13474C831533A40F0020CDB1 /* actionscript.plist in Resources */,
+				13474C841533A40F0020CDB1 /* actionscript3.plist in Resources */,
+				13474C851533A40F0020CDB1 /* active4d.plist in Resources */,
+				13474C861533A40F0020CDB1 /* ada.plist in Resources */,
+				13474C871533A40F0020CDB1 /* ampl.plist in Resources */,
+				13474C881533A40F0020CDB1 /* apache.plist in Resources */,
+				13474C891533A40F0020CDB1 /* applescript.plist in Resources */,
+				13474C8A1533A40F0020CDB1 /* asm-mips.plist in Resources */,
+				13474C8B1533A40F0020CDB1 /* asm-x86.plist in Resources */,
+				13474C8C1533A40F0020CDB1 /* asp-js.plist in Resources */,
+				13474C8D1533A40F0020CDB1 /* asp-vb.plist in Resources */,
+				13474C8E1533A40F0020CDB1 /* aspdotnet-cs.plist in Resources */,
+				13474C8F1533A40F0020CDB1 /* aspdotnet-vb.plist in Resources */,
+				13474C901533A40F0020CDB1 /* awk.plist in Resources */,
+				13474C911533A40F0020CDB1 /* batch.plist in Resources */,
+				13474C921533A40F0020CDB1 /* c.plist in Resources */,
+				13474C931533A40F0020CDB1 /* cobol.plist in Resources */,
+				13474C941533A40F0020CDB1 /* coldfusion.plist in Resources */,
+				13474C951533A40F0020CDB1 /* cpp.plist in Resources */,
+				13474C961533A40F0020CDB1 /* csharp.plist in Resources */,
+				13474C971533A40F0020CDB1 /* csound.plist in Resources */,
+				13474C981533A40F0020CDB1 /* css.plist in Resources */,
+				13474C991533A40F0020CDB1 /* d.plist in Resources */,
+				13474C9A1533A40F0020CDB1 /* dylan.plist in Resources */,
+				13474C9B1533A40F0020CDB1 /* eiffel.plist in Resources */,
+				13474C9C1533A40F0020CDB1 /* erl.plist in Resources */,
+				13474C9D1533A40F0020CDB1 /* eztpl.plist in Resources */,
+				13474C9E1533A40F0020CDB1 /* fortran.plist in Resources */,
+				13474C9F1533A40F0020CDB1 /* freefem.plist in Resources */,
+				13474CA01533A40F0020CDB1 /* gedcom.plist in Resources */,
+				13474CA11533A40F0020CDB1 /* gnuassembler.plist in Resources */,
+				13474CA21533A40F0020CDB1 /* haskell.plist in Resources */,
+				13474CA31533A40F0020CDB1 /* header.plist in Resources */,
+				13474CA41533A40F0020CDB1 /* html.plist in Resources */,
+				13474CA51533A40F0020CDB1 /* idl.plist in Resources */,
+				13474CA61533A40F0020CDB1 /* java.plist in Resources */,
+				13474CA71533A40F0020CDB1 /* javafx.plist in Resources */,
+				13474CA81533A40F0020CDB1 /* javascript.plist in Resources */,
+				13474CA91533A40F0020CDB1 /* jsp.plist in Resources */,
+				13474CAA1533A40F0020CDB1 /* latex.plist in Resources */,
+				13474CAB1533A40F0020CDB1 /* lilypond.plist in Resources */,
+				13474CAC1533A40F0020CDB1 /* lisp.plist in Resources */,
+				13474CAD1533A40F0020CDB1 /* logtalk.plist in Resources */,
+				13474CAE1533A40F0020CDB1 /* lsl.plist in Resources */,
+				13474CAF1533A40F0020CDB1 /* lua.plist in Resources */,
+				13474CB01533A40F0020CDB1 /* matlab.plist in Resources */,
+				13474CB11533A40F0020CDB1 /* mel.plist in Resources */,
+				13474CB21533A40F0020CDB1 /* metapost.plist in Resources */,
+				13474CB31533A40F0020CDB1 /* metaslang.plist in Resources */,
+				13474CB41533A40F0020CDB1 /* mysql.plist in Resources */,
+				13474CB51533A40F0020CDB1 /* nemerle.plist in Resources */,
+				13474CB61533A40F0020CDB1 /* none.plist in Resources */,
+				13474CB71533A40F0020CDB1 /* nrnhoc.plist in Resources */,
+				13474CB81533A40F0020CDB1 /* objectivec.plist in Resources */,
+				13474CB91533A40F0020CDB1 /* objectivecaml.plist in Resources */,
+				13474CBA1533A40F0020CDB1 /* ox.plist in Resources */,
+				13474CBB1533A40F0020CDB1 /* pascal.plist in Resources */,
+				13474CBC1533A40F0020CDB1 /* pdf.plist in Resources */,
+				13474CBD1533A40F0020CDB1 /* perl.plist in Resources */,
+				13474CBE1533A40F0020CDB1 /* php.plist in Resources */,
+				13474CBF1533A40F0020CDB1 /* plist.plist in Resources */,
+				13474CC01533A40F0020CDB1 /* postscript.plist in Resources */,
+				13474CC11533A40F0020CDB1 /* prolog.plist in Resources */,
+				13474CC21533A40F0020CDB1 /* python.plist in Resources */,
+				13474CC31533A40F0020CDB1 /* r.plist in Resources */,
+				13474CC41533A40F0020CDB1 /* rhtml.plist in Resources */,
+				13474CC51533A40F0020CDB1 /* ruby.plist in Resources */,
+				13474CC61533A40F0020CDB1 /* scala.plist in Resources */,
+				13474CC71533A40F0020CDB1 /* sgml.plist in Resources */,
+				13474CC81533A40F0020CDB1 /* shell.plist in Resources */,
+				13474CC91533A40F0020CDB1 /* sml.plist in Resources */,
+				13474CCA1533A40F0020CDB1 /* sql.plist in Resources */,
+				13474CCB1533A40F0020CDB1 /* standard.plist in Resources */,
+				13474CCC1533A40F0020CDB1 /* stata.plist in Resources */,
+				13474CCD1533A40F0020CDB1 /* supercollider.plist in Resources */,
+				13474CCE1533A40F0020CDB1 /* tcltk.plist in Resources */,
+				13474CCF1533A40F0020CDB1 /* torquescript.plist in Resources */,
+				13474CD01533A40F0020CDB1 /* udo.plist in Resources */,
+				13474CD11533A40F0020CDB1 /* vb.plist in Resources */,
+				13474CD21533A40F0020CDB1 /* verilog.plist in Resources */,
+				13474CD31533A40F0020CDB1 /* vhdl.plist in Resources */,
+				13474CD41533A40F0020CDB1 /* xml.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -125,11 +125,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CTHighlightView.m"
-         timestampString = "355384443.457821"
+         timestampString = "355706235.340053"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "135"
-         endingLineNumber = "135"
+         startingLineNumber = "137"
+         endingLineNumber = "137"
          landmarkName = "-drawRect:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -326,6 +326,19 @@
          startingLineNumber = "98"
          endingLineNumber = "98"
          landmarkName = "-drawRect:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CTHighlightView.m"
+         timestampString = "355706784.089619"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "36"
+         endingLineNumber = "36"
+         landmarkName = "-initWithFrame:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -17,4 +17,5 @@
 
 - (NSRange)visibleRangeOfTextView:(UITextView *)textView;
 
+- (NSAttributedString*)highlightText:(NSAttributedString *)stringIn;
 @end
